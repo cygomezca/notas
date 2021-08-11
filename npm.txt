@@ -1,0 +1,42 @@
+iniciar proyecto
+npm i express express-handlebars express-session method-override mongoose passport passport-local bcryptjs connect-flash
+
+crear carpetas
+mkdir (nombre carpeta)
+
+iniciar servidor
+node src/index.js
+
+iniciar servidor y tenerlo ahi
+npm i nodemon -D
+
+ejecutar
+npm run dev
+
+
+<!--<div class="row">
+    {{#each notes}}
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        {{title}}
+                    </h4>
+                    <p>{{description}}</p>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</div>-->
+
+{
+  "_id": {
+    "$oid": "610ec5dc5385ec0748189c6d"
+  },
+  "title": "hola",
+  "description": "como estas",
+  "date": {
+    "$date": "2021-08-07T17:41:48.294Z"
+  },
+  "__v": 0
+}
